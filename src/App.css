@@ -11,44 +11,34 @@ ul > li {
     width: 100%;
     height: 50px;
     position: fixed;
+    z-index: 9999;
 }
 
 .header {
     height: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 20px;
 }
 
-.logo {
+.menu_list {
     display: flex;
-    justify-content: flex-start;
-}
-
-.menu-list {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
-.menu-list > li {
-    margin: 0 20px;
+.menu_list > li {
     position: relative;
-    transition: all 0.3s;
 }
 
-.menu-list > li:hover .dropdown {
-    width: 100%;
-    display: block;
-}
-
-.menu-list > li > a {
+.menu_list > li > a {
     display: inline-block;
     text-transform: uppercase;
 }
 
-.menu-list > li > a:after {
+.menu_list > li > a:after {
     content: "";
     display: block;
     border-bottom: solid 2px #212221;
@@ -56,36 +46,36 @@ ul > li {
     transition: all 0.3s ease-in-out;
 }
 
-.menu-list > li > a:hover:after {
+.menu_list > li > a:hover:after {
     transform: scaleX(1);
 } 
 
-.menu-list > li > .item_contents {
-    width: 100%;
-    position: fixed;
-    left: 0;
-    display: none;
+.main_menu {
+    position: relative;
+    margin: 0 20px;
 }
 
-.menu-list > li:hover > .item_contents {
-    padding-top: 10px;
+.main_menu:hover .sub_menu {
     display: block;
 }
 
-.menu-list:hover + .main{
+.sub_menu {
+    width: 150px;
+    padding-top: 10px;
+    height: 250px;
+    position: fixed;
+    display: none;
     background-color: #fff;
 }
 
-.menu-list > li > .item_contents > .contents_menu {
+.sub_menu > li {
+    text-align: left;
+    border: solid 1px #000;
+}
+
+.logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    height: 200px;
-}
-
-.contents_menu_list {
-    text-align: center;
+    justify-content: flex-start;
 }
 
 .Login {
@@ -106,14 +96,44 @@ ul > li {
 }
 
 .BG_Image {
+    display: block;
     width: 100%;
     height: 100%;
 
 }
 
 .BG_Image > img {
-    width: 100%;
+    width: 100vw;
+    display: block;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+}
+
+.BG_Image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.BG_Image img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.BG_Image__0 {
+  z-index: 1;
+}
+
+.BG_Image__1 {
+  z-index: 0;
+}
+
+.BG_Image__2 {
+  z-index: 0;
 }
