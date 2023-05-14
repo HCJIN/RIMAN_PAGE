@@ -1,0 +1,64 @@
+ul > li {
+    list-style: none;
+}
+
+.main {
+    width: 100%;
+    position: fixed;
+
+}
+
+.hadear {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-list {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.menu-list > li {
+    margin: 0 20px;
+}
+
+.menu-list > .menu_6 {
+    font-weight: bold;
+}
+
+.Login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.My_page_Icon {
+    margin-right: 5px;
+} 
+
+.Menu_Bar {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BG_Image {
+    width: 100%;
+    height: 100%;
+
+}
+
+.BG_Image > img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
