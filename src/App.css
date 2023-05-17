@@ -67,14 +67,42 @@ ul > li {
 .sub_menu {
     width: 150px;
     padding: 10px;
+    font-size: 14px;
     position: fixed;
     display: none;
-    background-color: #fff;
+    color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .7);
+    animation-name:slide_up;
+    animation-duration:1s;  
+    border-radius: 5px;
 }
+
+@keyframes slide_up{
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 0%, 0);
+    }
+    50%{
+        opacity: 1;
+        transform: translate3d(1, 30%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+  }
 
 .sub_menu > li {
     text-align: left;
-    border: solid 1px #000;
+    margin: 5px 0;
+    transition: all .3s;
+}
+
+.sub_menu > li:hover {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .logo {
