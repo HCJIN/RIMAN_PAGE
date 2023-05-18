@@ -5,6 +5,13 @@ import { useState } from 'react';
 
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+
+
+
+  const handleClick = () => {
+    setShowMenu(true);
+  }
   
   const handleMouseEnter = () => {
     setShowDropdown(true);
@@ -25,9 +32,21 @@ const NavBar = () => {
           <a href='#'>BRAND</a>
           {showDropdown && (
             <ul className='sub_menu'>
-              <li>인셀덤</li>
-              <li>보타랩</li>
-              <li>라이프닝</li>
+              <li>
+                <a href='#'>
+                  인셀덤
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  보타랩
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  라이프닝
+                </a>
+              </li>
             </ul>
           )}
         </li>
@@ -35,7 +54,11 @@ const NavBar = () => {
           <a href='#'>PRODUCTS</a>
           {showDropdown && (
             <ul className='sub_menu'>
-              <li>제품보기</li>
+              <li>
+                <a href='#'>
+                  제품보기  
+                </a>
+              </li>
             </ul>
           )}
         </li>
@@ -43,10 +66,26 @@ const NavBar = () => {
           <a href='#'>NEWS & MEDIA</a>
           {showDropdown && (
             <ul className='sub_menu'>
-              <li>리만뉴스</li>
-              <li>소셜미디어</li>
-              <li>브랜드 필름</li>
-              <li>뷰티 & 라이프 LAB</li>
+              <li>
+                <a href='#'>
+                  리만뉴스
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  소셜미디어
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  브랜드 필름
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  뷰티 & 라이프 LAB
+                </a>
+              </li>
             </ul>
           )}
         </li>
@@ -54,13 +93,41 @@ const NavBar = () => {
           <a href='#'>ABOUT US</a>
           {showDropdown && (
             <ul className='sub_menu'>
-              <li>기업소개</li>
-              <li>CI/BI 소개</li>
-              <li>R & D</li>
-              <li>ESG 경영</li>
-              <li>연혁 & 수상</li>
-              <li>VISIT OUR BRANCH</li>
-              <li>CONTACT US</li>
+              <li>
+                <a href='#'>
+                  기업소개  
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  CI/BI 소개
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  R & D  
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  ESG 경영  
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  연혁 & 수상  
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  VISIT OUR BRANCH  
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  CONTACT US  
+                </a>
+              </li>
             </ul>
           )}
         </li>
@@ -81,8 +148,25 @@ const NavBar = () => {
       </ul>
       <div className='Login'>
           <FontAwesomeIcon icon={faUser} className='My_page_Icon'/>
-          <div className='My_Page'>My Office</div>
-          <div className='Menu_Bar'>=</div>
+          <div className='My_Page'>
+            <a href='#'>
+              My Office
+            </a>
+          </div>
+          <div className='Menu_Bar' onClick={handleClick}>
+            <a href='#'>
+              =
+            </a>
+            {showMenu && (
+                <div className='Show_menu'>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              )}
+          </div>
         </div>
       </div>
       
