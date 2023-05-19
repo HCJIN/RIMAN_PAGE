@@ -15,6 +15,7 @@ const NavBar = () => {
 
   const handleCloseClick = () => {
     setShowMenu(false);
+    console.log("작동중?")
   }
 
   const handleMouseEnter = () => {
