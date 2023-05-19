@@ -57,6 +57,10 @@ ul > li {
     transform: scaleX(1);
 } 
 
+.menu_list > li:nth-child(6) {
+    font-weight: bold;
+}
+
 .main_menu {
     position: relative;
     margin: 0 20px;
@@ -71,28 +75,30 @@ ul > li {
     padding: 10px;
     font-size: 14px;
     display: none;
-    color: rgba(0, 0, 0, .5);
     overflow: hidden;
     background-color: rgba(255, 255, 255, .7);
-    animation-name:slide_up;
-    animation-duration:1s;  
     border-radius: 5px;
+    animation-name: slide_up;
+    animation-duration: 1s;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
 }
 
-@keyframes slide_up{
+@keyframes slide_up {
     0% {
         opacity: 0;
         transform: translate3d(0, 30%, 0);
     }
-    50%{
+    50% {
         opacity: 1;
-        transform: translate3d(1, 30%, 0);
+        transform: translate3d(1, 15%, 0); 
     }
-    to {
+    100% {
         opacity: 1;
-        transform: translateZ(0);
+        transform: translate3d(0, 0, 0); 
     }
-  }
+}
 
 .sub_menu > li {
     text-align: left;
@@ -100,16 +106,44 @@ ul > li {
     transition: all .3s;
 }
 
-.sub_menu > li:hover {
+.sub_menu > li > a {
+    color: rgba(0, 0, 0, .5);
+}
+
+.sub_menu > li:hover > a {
     color: rgba(0, 0, 0, 1);
     font-weight: bold;
 }
 
-.Show_menu{
-    width: 200vw;
-    height: 200vh;
+.sub_menu > li:hover > a::after {
+    content: "👈";
+}
+
+.Show_Menu {
+    max-width: 1475px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
     z-index: 9999;
+    color: rgba(255, 255, 255, .8);
     background-color: rgba(11, 30, 48, .9);
+  }
+
+.Show_Menu > div:first-child {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.Show_Menu > div:first-child > a {
+    color: rgba(255, 255, 255, .8);
+    padding: 10px;
+    background-color: #000;
 }
 
 .logo {
