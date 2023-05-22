@@ -8,13 +8,12 @@ import Show_Menu from './component/Show_Menu';
 function App() {
   return (
     <div>
-      <BrowserRouter>
         <Routes>
+          <Route path="/" element={<App/>} />
           <Route path="/Show_menu" element={<Show_Menu/>} />
         </Routes>
-      </BrowserRouter>
-      <NavBar />
-      <Main_Visual />
+        <NavBar></NavBar>
+        <Main_Visual></Main_Visual>
     </div>
   );
 }

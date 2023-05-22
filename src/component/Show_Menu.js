@@ -1,10 +1,11 @@
-import React from 'react'
-import { Route } from 'react-router-dom'
+import React from 'react';
 
 const Show_Menu = () => {
   return (
-    <div>Show_Menu</div>
-  )
-}
+    <div className="Show_Menu">
+      {/* Show_Menu 컴포넌트의 내용 */}
+    </div>
+  );
+};
 
-export default Show_Menu
+export default Show_Menu;
