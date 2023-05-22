@@ -13,7 +13,6 @@ function App() {
           <Route path="/" element={<Main_Visual/>} />
           <Route path="/Show_menu" element={<Show_Menu/>} />
         </Routes>
-
         <Main_Visual></Main_Visual>
     </div>
   );
