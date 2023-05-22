@@ -4,6 +4,7 @@ import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Show_Menu from './Show_Menu';
+import '../App.css'; 
 
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -171,7 +172,6 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
