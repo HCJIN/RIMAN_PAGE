@@ -2,21 +2,11 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Show_Menu from './Show_Menu';
 
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-  const [showMenu, setShowMenu] = useState(false);
-
-
-
-  const handleClick = () => {
-    setShowMenu(true);
-  }
-
-  const handleCloseClick = () => {
-    setShowMenu(false);
-    console.log("작동중?")
-  }
 
   const handleMouseEnter = () => {
     setShowDropdown(true);
@@ -175,25 +165,9 @@ const NavBar = () => {
             </a>
           </div>
           <div className='Menu_Bar'>
-            <a href='#' onClick={handleClick}>
+            <Link to="/show_menu">
               =
-              {showMenu && (
-                <div className='Show_Menu'>
-                  <div>
-                    <a href='#' onClick={handleCloseClick} >
-                      X
-                    </a>
-                  </div>
-                  <div className='Click_Menu_Bar'>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div>
-                </div>
-              )}
-            </a>
+            </Link>
           </div>
         </div>
       </div>
