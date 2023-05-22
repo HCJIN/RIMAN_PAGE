@@ -4,20 +4,16 @@ import Main_Visual from './component/Main_Visual';
 import NavBar from './component/NavBar';
 import Show_Menu from './component/Show_Menu';
 
-function ShowMenu() {
-  return <div>Show Menu Component</div>;
-}
-
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/my-app">
+      <BrowserRouter>
         <Routes>
-          <Route path="/show_menu" element={<ShowMenu />} />
+          <Route path="/Show_Menu" element={<Show_Menu />} />
         </Routes>
+        <NavBar />
+        <Main_Visual />
       </BrowserRouter>
-      <NavBar />
-      <Main_Visual />
     </div>
   );
 }

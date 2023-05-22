@@ -165,7 +165,7 @@ const NavBar = () => {
             </a>
           </div>
           <div className='Menu_Bar'>
-            <Link to="/show_menu">
+            <Link to="/Show_Menu">
               =
             </Link>
           </div>
