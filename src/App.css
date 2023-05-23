@@ -40,6 +40,7 @@ ul > li {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    font-size: 18px;
 }
 
 .menu_list > li {
@@ -81,7 +82,7 @@ ul > li {
 .sub_menu {
     width: 150px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 15px;
     display: none;
     overflow: hidden;
     background-color: rgba(255, 255, 255, .7);
@@ -121,10 +122,6 @@ ul > li {
 .sub_menu > li:hover > a {
     color: rgba(0, 0, 0, 1);
     font-weight: bold;
-}
-
-.sub_menu > li:hover > a::after {
-    content: "👈";
 }
 
 /* Sub_Menu_end */
@@ -206,10 +203,10 @@ ul > li {
     font-weight: bold;
 }
 
-.BG_Image {
+.Main_BG {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .bg-image {
@@ -219,7 +216,7 @@ ul > li {
 
 .BG_Image > img {
     width: 100vw;
-    display: block;
+    display:inline-block;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -230,7 +227,6 @@ ul > li {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   opacity: 0;
   z-index: 0;
   transition: opacity 1s ease-in-out;
@@ -268,10 +264,12 @@ ul > li {
 
 .BG_Text h3 {
     margin: 30px 0;
+    font-size: 25px;
 }
 
 .BG_Text h4 {
     line-height: 25px;
+    font-size: 16px;
 }
 
 .BG_Text_Btn {
@@ -326,3 +324,62 @@ ul > li {
       opacity: 0;
     }
   }
+
+/* Main_Visual_end */
+
+.Main_Product_Top_Box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main_Product_Box_end */
+
+.Main_Product_Top_Box_Left {
+    width: 50%;
+    text-align: center;
+}
+
+.Left_Box_Top_Txt {
+    font-size: 30px;
+}
+
+.Left_Box_Mid_Txt {
+    margin-top: 30px;
+    color: #4d4e4d;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.Left_Box_Btn {
+    display: inline-block;
+    min-width: 220px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 58px;
+    font-weight: 500;
+    margin: 40px 0 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #212221;
+    transition: all .3s ease-out 0s;
+}
+
+.Left_Box_Btn:hover {
+    color: #fff;
+    background-color: #212221;
+    cursor: pointer;
+}
+
+/* Main_Product_Box_Left_end */
+
+.Main_Product_Top_Box_Right {
+    width: 50%;
+}
+
+.Right_Box_Img > img {
+    display: block;
+    width: 100%;
+}
+
+/* Main_Product_Box_right_end */

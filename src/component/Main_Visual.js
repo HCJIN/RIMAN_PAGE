@@ -16,7 +16,7 @@ const Main_Visual = () => {
   }, []);
 
   return (
-    <div className="BG_Image">
+    <div className="Main_BG BG_Image">
       {bgList.map((bg, index) => (
         <div key={index} className={`bg-image-wrapper ${
           index === bgIndex ? 'active' : ''
