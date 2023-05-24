@@ -1,5 +1,6 @@
 import React from 'react'
-import RB_Img from '../image/main_incel_img01.jpg';
+import Top_Box_Img from '../image/main_incel_img01.jpg';
+import Mid_Box_Img from '../image/main_botalab_img01.jpg'
 
 const Main_Product_Box = () => {
   return (
@@ -7,23 +8,38 @@ const Main_Product_Box = () => {
       <div className='Main_Product_Top_Box'>
         <div className='Main_Product_Top_Box_Left'>
           <div className='Main_Product_Top_Box_Left_Txt'>
-            <h1 className='Left_Box_Top_Txt'>
+            <h1 className='Top_Left_Box_Top_Txt'>
               인셀덤 더마톨로지 <br/> 퍼스트 패키지 EX & 엑티브 크림 EX
             </h1>
-            <div className='Left_Box_Mid_Txt'>
+            <div className='Top_Left_Box_Mid_Txt'>
               어린 세포에 빛을 전하는 <br/> ByungPool Energy Fluid의 힘
             </div>
-            <button className="Left_Box_Btn">자세히 보기</button>
+            <button className="Top_Left_Box_Btn">자세히 보기</button>
           </div>
         </div>
         <div className='Main_Product_Box_Right'>
-          <div className='Right_Box_Img'>
-            <img src={RB_Img}/>
+          <div className='Top_Right_Box_Img'>
+            <img src={Top_Box_Img}/>
           </div>
         </div>
       </div>
-      <div className='Main_Product_Mai_Box'>
-
+      <div className='Main_Product_Mid_Box'>
+        <div className='Main_Product_Mid_Box_Left'>
+          <div className='Mid_Left_Box_Img'>
+            <img src={Mid_Box_Img} />
+          </div>
+        </div>
+        <div className='Main_Product_Mid_Box_Right'>
+          <div className='Main_Product_Mid_Box_Right_Txt'>
+            <h1 className='Mid_Right_Box_Top_Txt'>
+              사막의 기적, 데저티콜라 <br/> 샴푸 & 워터 트리트먼트 & <br/> 헤어오일세럼 
+            </h1>
+            <div className='Mid_Right_Box_Mid_Txt'>
+              지친 모발과 두피에 영양을 전달하는 <br/> Vegan Hair Care Program
+            </div>
+            <button className="Mid_Right_Box_Btn">자세히 보기</button>
+          </div>
+        </div>
       </div>
       <div></div>
 
