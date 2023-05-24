@@ -211,14 +211,21 @@ ul > li {
 
 .bg-image {
     transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
   
 
 .BG_Image > img {
-    width: 100vw;
+    width: 100%;
+    height: 100%;
     display:inline-block;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: 50%;
 }
 
@@ -373,13 +380,12 @@ ul > li {
 /* Main_Product_Box_Left_end */
 
 .Main_Product_Top_Box_Right {
-    width: 50%;
-    overflow: hidden;
+    width: 100%;
 }
 
 .Top_Right_Box_Img > img {  
-    width: 100%;
     display: block;
+    width: 100%;
     height: auto;
 }
 
