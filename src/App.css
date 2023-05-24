@@ -330,15 +330,14 @@ ul > li {
 .Main_Product_Top_Box {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* Main_Product_Box_end */
 
 .Main_Product_Top_Box_Left {
     width: 50%;
-    text-align: center;
 }
 
 .Top_Left_Box_Top_Txt {
@@ -375,11 +374,13 @@ ul > li {
 
 .Main_Product_Top_Box_Right {
     width: 50%;
+    overflow: hidden;
 }
 
-.Top_Right_Box_Img > img {
-    display: block;
+.Top_Right_Box_Img > img {  
     width: 100%;
+    display: block;
+    height: auto;
 }
 
 /* Main_Product_Box_right_end */
@@ -387,7 +388,7 @@ ul > li {
 .Main_Product_Mid_Box {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
