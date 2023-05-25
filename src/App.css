@@ -334,6 +334,10 @@ ul > li {
 
 /* Main_Visual_end */
 
+.Main_Product_Box {
+    width: 100%;
+}
+
 .Main_Product_Top_Box {
     width: 100%;
     display: flex;
@@ -380,13 +384,12 @@ ul > li {
 /* Main_Product_Box_Left_end */
 
 .Main_Product_Top_Box_Right {
-    width: 100%;
+    width: 50%;
 }
 
 .Top_Right_Box_Img > img {  
     display: block;
     width: 100%;
-    height: auto;
 }
 
 /* Main_Product_Box_right_end */

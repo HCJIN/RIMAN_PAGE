@@ -17,7 +17,7 @@ const Main_Product_Box = () => {
             <button className="Top_Left_Box_Btn">자세히 보기</button>
           </div>
         </div>
-        <div className='Main_Product_Box_Right'>
+        <div className='Main_Product_Top_Box_Right'>
           <div className='Top_Right_Box_Img'>
             <img src={Top_Box_Img}/>
           </div>
