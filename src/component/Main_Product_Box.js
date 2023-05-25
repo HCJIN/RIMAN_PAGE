@@ -1,6 +1,7 @@
 import React from 'react'
 import Top_Box_Img from '../image/main_incel_img01.jpg';
 import Mid_Box_Img from '../image/main_botalab_img01.jpg'
+import Bottom_Box_Img from '../image/main_lifening_img01.jpg'
 
 const Main_Product_Box = () => {
   return (
@@ -41,7 +42,24 @@ const Main_Product_Box = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className='Main_Product_Bottom_Box'>
+        <div className='Main_Product_Bottom_Box_Left'>
+          <div className='Main_Product_Bottom_Box_Left_Txt'>
+              <h1 className='Bottom_Left_Box_Top_Txt'>
+                현재를 가꾸는 당신에게, 라이프닝 <br/> Lifening, to tou
+              </h1>
+              <div className='Bottom_Left_Box_Mid_Txt'>
+                매일 챙기는 <br/> 당신의 하루
+              </div>
+              <button className="Bottom_Left_Box_Btn">자세히 보기</button>      
+          </div>    
+        </div>
+        <div className='Main_Product_Bottom_Box_Right'>
+          <div className='Bottom_Right_Box_Img'>
+            <img src={Bottom_Box_Img}/>
+          </div>
+        </div>
+      </div>
 
     </div>
   )

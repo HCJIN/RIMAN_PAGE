@@ -1,13 +1,13 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Show_Menu from './Show_Menu';
 import '../App.css'; 
 
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleMouseEnter = () => {
     setShowDropdown(true);
@@ -17,8 +17,21 @@ const NavBar = () => {
     setShowDropdown(false);
   };
   
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentPosition = window.scrollY;
+      setScrollPosition(currentPosition);
+      console.log(currentPosition)
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='main'>
+    <div className={`main ${scrollPosition > 400 ? 'white-background' : ''}`}>
       <div className='header'>
         <a>
           <img src='https://www.rimankorea.com/logo_rimankorea.svg?30b253deffbf5c06549e270cc61b2f69' alt='로고'/>
