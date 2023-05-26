@@ -38,6 +38,11 @@ ul > li {
     background-color: rgba(255, 255, 255, .8);
 }
 
+.white-background .sub_menu {
+    background-color: #212221;
+    color: #fff;
+}
+
 /* Header_end */
 
 .menu_list {
