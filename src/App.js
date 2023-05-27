@@ -5,6 +5,7 @@ import NavBar from './component/NavBar';
 import Show_Menu from './component/Show_Menu';
 import Main_Product_Box from './component/Main_Product_Box';
 import Banner from './component/Banner';
+import Count_Page from './component/Count_Page';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         </Routes>
         <Main_Product_Box />
         <Banner />
+        <Count_Page />
     </div>
   );
 }

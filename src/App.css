@@ -302,7 +302,7 @@ ul > li {
     transition: all .3s ease-out 0s;
     position: absolute;
     z-index: 10;
-    top: 50%;
+    top: 40%;
     left: 10%;
     transform: translateX(-10%);
 }
@@ -623,4 +623,41 @@ ul > li {
     background-color: #212221;
     color: #fff;
     cursor: pointer;
+}
+
+/* Bottom_Banner_Box_end */
+
+.Count_Page {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 80px;
+    height: auto;
+}
+
+.Count_Page_Sub_Title {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    color: #4d4e4d;
+    font-size: 18px;  
+}
+
+.Count_Menu {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Count {
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.Count > li {
+    font-size: 18px;
+    margin-top: 20px;
 }
