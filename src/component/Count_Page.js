@@ -12,25 +12,37 @@ const Count_Page = () => {
             </h3>
             <ul className='Count_Menu'>
                 <li className='Count'>
-                    41만명
+                    41
+                    <li>
+                        만명 
+                    </li>
                     <li>
                         회원수
                     </li>
                 </li>
                 <li className='Count'>
-                    3,770개점
+                    3,770
+                    <li>
+                        개점 
+                    </li>
                     <li>
                         전국 대리점
                     </li>
                 </li>
                 <li className='Count'>
-                    7,845억원
+                    7,845
+                    <li>
+                        억원 
+                    </li>
                     <li>
                         연 매출
                     </li>
                 </li>
                 <li className='Count'>
-                    3,539만개
+                    3,539
+                    <li>
+                        만개 
+                    </li>
                     <li>
                         누적 판매량
                     </li>
