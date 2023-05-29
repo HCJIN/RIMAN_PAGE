@@ -655,9 +655,24 @@ ul > li {
     margin: 0 auto;
     font-size: 60px;
     font-weight: 300;
+    display: flex;
+}
+
+.Count > .Sub {
+    margin-left: 10px;
 }
 
 .Count > li {
     font-size: 18px;
     margin-top: 20px;
+}
+
+.Bottom_Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bottom_Menu > div {
+    margin: 0 auto;
 }
