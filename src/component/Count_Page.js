@@ -12,27 +12,47 @@ const Count_Page = () => {
             </h3>
             <ul className='Count_Menu'>
                 <li className='Count'>
-                    41
-                    <li className='Sub'>
-                        만명 
+                    <ul className="Count_List">
+                        41
+                        <li className="sub">
+                            만명
+                        </li>
+                    </ul>
+                    <li>
+                        회원수
                     </li>
                 </li>
                 <li className='Count'>
-                    3,770
-                    <li className='Sub'>
-                        개점 
+                    <ul className="Count_List">
+                        3,770
+                        <li className="sub">
+                            개점
+                        </li>
+                    </ul>
+                    <li>
+                        전국 대리점
                     </li>
                 </li>
                 <li className='Count'>
-                    7,845
-                    <li className='Sub'>
-                        억원 
+                    <ul className="Count_List">
+                        7,845
+                        <li className="sub">
+                            억원
+                        </li>
+                    </ul>
+                    <li>
+                        연 매출
                     </li>
                 </li>
                 <li className='Count'>
-                    3,539
-                    <li className='Sub'>
-                        만개 
+                    <ul className="Count_List">
+                        3,539
+                        <li className="sub">
+                            만개
+                        </li>
+                    </ul>
+                    <li>
+                        누적판매량
                     </li>
                 </li>
             </ul>
