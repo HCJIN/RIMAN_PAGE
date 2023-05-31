@@ -6,6 +6,7 @@ import Show_Menu from './component/Show_Menu';
 import Main_Product_Box from './component/Main_Product_Box';
 import Banner from './component/Banner';
 import Count_Page from './component/Count_Page';
+import News_Page from './component/News_Page';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Main_Product_Box />
         <Banner />
         <Count_Page />
+        <News_Page />
     </div>
   );
 }
