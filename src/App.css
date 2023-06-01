@@ -700,10 +700,38 @@ ul > li {
 
 .Inner {
     padding: 0 20px;
+    height: 400px;
+    background-color: aquamarine;
 }
 
 .News_Title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.News_Title > h1 {
+    margin: 0 auto;
+}
+
+.News_Btn {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    right: 20px;
+    font-size: 30px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-out 0s;
+}
+
+.News_Btn:hover {
+    background-color: #000;
+    color: #fff;
 }
