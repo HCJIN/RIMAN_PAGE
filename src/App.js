@@ -7,6 +7,7 @@ import Main_Product_Box from './component/Main_Product_Box';
 import Banner from './component/Banner';
 import Count_Page from './component/Count_Page';
 import News_Page from './component/News_Page';
+import Main_Bottom from './component/Main_Bottom';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Banner />
         <Count_Page />
         <News_Page />
+        <Main_Bottom />
     </div>
   );
 }
