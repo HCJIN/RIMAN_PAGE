@@ -634,6 +634,7 @@ ul > li {
     text-align: center;
     margin-top: 80px;
     height: auto;
+    overflow-x: hidden;
 }
 
 .Count_Page_Sub_Title {
@@ -701,11 +702,13 @@ ul > li {
 .News_Page {
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .Inner {
     padding: 0 20px;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .News_Title {
@@ -780,11 +783,16 @@ ul > li {
 
 /* Main_News_Page_end */
 
+.Main_Bottom_Box {
+    width: 100%;
+}
+
 .Main_Bottom_Img {
     width: 100%;
     position: relative;
     top: 0;
     left: 0;
+    overflow: hidden;
 }
 
 .Main_Bottom_Img > img {
@@ -804,6 +812,11 @@ ul > li {
     color: #fff;
 }
 
+.Left_Arrow,
+.Right_Arrow {
+  cursor: pointer;
+}
+
 .Left_Arrow {
     width: 10%;
     font-size: 50px;
@@ -819,7 +832,7 @@ ul > li {
     right: 0;
     color: #fff;
     transform: translateY(-50%);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -844,6 +857,7 @@ ul > li {
     text-align: center;
     line-height: 58px;
     transition: all .3s ease-out 0s; 
+    cursor: pointer;
 }
 
 .Main_Bottom_Txt_Btn:hover {
