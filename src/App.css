@@ -797,9 +797,11 @@ ul > li {
 
 .Main_Bottom_Img > img {
     width: 100%;
-    height: 350px;
+    height: 480px;
     display: block;
 }
+
+/* Main_Bottom_Img_end */
 
 .Main_Bottom {
     width: 100%;
@@ -863,4 +865,26 @@ ul > li {
 .Main_Bottom_Txt_Btn:hover {
     background-color: #fff;
     color: #212221;
+}
+
+/* Main_Bottom_Txt_end */
+
+.Footer_Main {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg,rgba(0,0,0,.2),rgba(0,0,0,.2)),#123250;   
+}
+
+.Footer_Top_Box {
+    position: relative;
+    padding: 60px;
+}
+
+.Footer_Top_Box {
+    display: flex;
+    gap: 100px;
+}
+
+.Footer_Menu_List > li > a {
+    color: #fff;
 }

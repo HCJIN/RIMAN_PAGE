@@ -8,6 +8,7 @@ import Banner from './component/Banner';
 import Count_Page from './component/Count_Page';
 import News_Page from './component/News_Page';
 import Main_Bottom from './component/Main_Bottom';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Count_Page />
         <News_Page />
         <Main_Bottom />
+        <Footer />
     </div>
   );
 }
