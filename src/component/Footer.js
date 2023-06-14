@@ -1,12 +1,35 @@
-import React from 'react'
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import React, { useEffect, useState, useRef } from 'react'
 
 const Footer = () => {
+
+  const [selectListOn, setSelectListOn] = useState(false);
+  const selectListRef = useRef(null);
+
+  const handleFamilySiteClick = () => {
+    setSelectListOn((prevOn) => !prevOn);
+  };
+
+  const handleClickOutside = (event) => {
+    if (selectListRef.current && !selectListRef.current.parentNode.contains(event.target)) {
+      setSelectListOn(false);
+    }
+  };
+  
+
+  useEffect(() => {
+    document.addEventListener('click',handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside)
+    };
+  }, []);
+
+
   return (
     <div>
       <div className='Footer_Main'>
-        <div className="Footer_Top_Box">
+        <div className='Footer_Top_Box'>
+        <div className="Footer_Top_Box_Left">
           <ul className="Footer_Menu_List">
             <li className="Footer_Menu">
               <a href="#">
@@ -147,12 +170,54 @@ const Footer = () => {
               </ul>
             </li>
           </ul>
-          <DropdownButton id="dropdown-basic-button" title="Dropdown button">
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </DropdownButton>
+
+
         </div>
+        <div className='Footer_Top_Box_Right'>
+            <div className='Footer_Family'>
+              <div className='Select'>
+                <div className='Select_Wrap'>
+                  <button type='button' className={`Select_Button${selectListOn ? ' on' : ''}`} onClick={handleFamilySiteClick}>
+                    FAMILY SITE
+                  </button>
+                  <ul className={`Select_List ${selectListOn ? 'on' : ''}`} ref={selectListRef}>
+                    <li>
+                      <a href='#'>
+                        ASK COMPANY
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        INCELLDERM
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        BOTALAB
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        LIFENING
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        MY OFFICE
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        RIMAN MALL
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="Footer_Bottom_Box"></div>
       </div>
     </div>
