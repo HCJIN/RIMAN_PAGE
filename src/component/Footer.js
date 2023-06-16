@@ -220,7 +220,7 @@ const Footer = () => {
 
         <div className="Footer_Bottom_Box">
           <div className='Footer_Bottom'>
-            
+            <div className='Footer'></div>
           </div>
         </div>
       </div>
