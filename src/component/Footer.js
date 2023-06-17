@@ -219,9 +219,11 @@ const Footer = () => {
         </div>
 
         <div className="Footer_Bottom_Box">
-          <div className='Footer_Bottom'>
-            <div className='Footer'></div>
+          <div className='Footer_Bottom_Box_Top'>
+            <div className='Footer_Bottom_Box_Top_Left'></div>
+            <div className='Footer_Bottom_Box_Top_Right'></div>
           </div>
+          <div className='Footer_Bottom_Box_Bottom'></div>
         </div>
       </div>
     </div>
