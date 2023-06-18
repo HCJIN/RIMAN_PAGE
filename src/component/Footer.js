@@ -220,8 +220,22 @@ const Footer = () => {
 
         <div className="Footer_Bottom_Box">
           <div className='Footer_Bottom_Box_Top'>
-            <div className='Footer_Bottom_Box_Top_Left'></div>
-            <div className='Footer_Bottom_Box_Top_Right'></div>
+            <div className='Footer_Bottom_Box_Top_Left'>
+              <div className='Footer_Bottom_Box_Top_Left_Txt'>
+                <div>{`상호명 (주)리만코리아`}</div>
+                <div>대표자 김경중</div>
+                <div>주소 대구광역시 수성구 동대구로 86 리만타워 5,6층</div>
+                <div>팩스 052-767-0225,053-719-0225</div>
+              </div>
+            </div>
+            <div className='Footer_Bottom_Box_Top_Right'>
+              <div className='Footer_Bottom_Box_Top_Right_Txt'>
+                <div>사업자등록번호 272-81-02126</div>
+                <div>통신판매업신고번호 2021-대구수성구-0130</div>
+                <div>판매점 운영지원센터 1899-5940</div>
+                <div>뷰티플래너 통합지원센터 1522-8144</div>
+              </div>
+            </div>
           </div>
           <div className='Footer_Bottom_Box_Bottom'></div>
         </div>
