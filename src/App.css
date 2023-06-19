@@ -1046,6 +1046,8 @@ ul > li {
     font-size: 30px;
 }
 
+/* Footer_Top_end */
+
 .Footer_Bottom_Box_Bottom {
     display: flex;
     justify-content: space-between;
@@ -1067,3 +1069,5 @@ ul > li {
     display: block;
     color: #fff;
 }
+
+/* Footer_Bottom_Box_Bottom_end */
