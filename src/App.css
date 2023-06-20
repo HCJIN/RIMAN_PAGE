@@ -1929,35 +1929,6 @@ ul > li {
 
     /* Footer_Content_end */
 
-    .Footer_Top {
-        position: absolute;
-        right: 60px;
-        top: 350px;
-        padding: 50px 22px 0;
-        color: #fff;
-        font-size: 15px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #123250;
-        border: none;
-        cursor: pointer;
-    }
-
-    .Footer_Top > a {
-        color: #fff;
-    }
-
-    .Footer_Top:before {
-        content: '↑';
-        position: absolute;
-        top: 0px;
-        left: 50%;
-        width: 16px;
-        height: 32px;
-        margin-left: -8px;
-        background-repeat: no-repeat;
-        background-size: 16px 32px;
-        font-size: 30px;
-    }
-
     /* Footer_Top_end */
 
     .Footer_Bottom_Box_Bottom {
@@ -1983,4 +1954,5 @@ ul > li {
     .Footer_Etc > li > * {
         padding: 5px 8px;
     }
+
 }
