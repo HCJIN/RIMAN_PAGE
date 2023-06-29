@@ -178,11 +178,13 @@ ul > li {
 }
 
 .Show_Menu_List_Sub_Menu {
-    width: 15%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: 500;
+    column-gap: 40px;
+    width: 50%;
 }
 
 .Show_Menu_List_Sub_Menu > li {
@@ -1480,3 +1482,4 @@ ul > li {
     /* Footer_Bottom_Box_Bottom_end */
 
 }
+
