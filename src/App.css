@@ -1987,9 +1987,9 @@ ul > li {
     
     .News_Page {
         margin-top: 0;
+        height: 100%;
         padding: 10px 0;
-        padding-top: 80px;
-        background-color: blue;
+        padding-top: 60px;
     }
     
     .News_Title {
@@ -1997,6 +1997,7 @@ ul > li {
         justify-content: flex-start;
         align-items: center;
         position: relative;
+        margin-top: 20px;
     }
 
     .News_Title > h1 {
@@ -2004,7 +2005,6 @@ ul > li {
         text-align: left;
         line-height: 40px;
         position: absolute;
-
     }
     
     .News_Btn {
@@ -2031,13 +2031,15 @@ ul > li {
     .Main_News_Content {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
+        align-items: center;
         padding: 10px 0;
         margin-top: 50px;
     }
     
     .Content {
-        width: 30%;
+        width: 100%;
         box-sizing: border-box;
         padding-left: 8px;
         padding-right: 8px;
@@ -2069,7 +2071,84 @@ ul > li {
     }
     
     /* Main_News_Page_end */
-      
+
+    .Main_Bottom_Box {
+        width: 100%;
+    }
+    
+    .Main_Bottom_Img {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    
+    .Main_Bottom_Img > img {
+        width: 100%;
+        height: 480px;
+        display: block;
+    }
+    
+    /* Main_Bottom_Img_end */
+    
+    .Main_Bottom {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+    }
+
+    .Left_Arrow,
+    .Right_Arrow {
+        cursor: pointer;
+        display: none;
+    }
+
+    .Main_Bottom_Txt {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 0;
+        color: #fff;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .Main_Bottom_Txt > div:nth-child(2) {
+        margin: 15px 0 20px 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .Main_Bottom_Txt_Btn {
+        display: inline-block;
+        min-width: 165px;
+        border: 1px solid #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 44px;
+        transition: all 0.3s ease-out 0s;
+        cursor: pointer;
+    }
+
+    .Main_Bottom_Txt_Btn:hover {
+        background-color: #fff;
+        color: #212221;
+    }
+
+    /* Main_Bottom_Txt_end */
+
     .Footer_Main {
         width: 100%;
         display: flex;
