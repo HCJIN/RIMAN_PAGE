@@ -2261,6 +2261,7 @@ ul > li {
     .Footer_Item > strong {
         margin-right: 5px;
         font-weight: 600;
+        background-color: blue;
     }
     
     /* Footer_Content_end */
