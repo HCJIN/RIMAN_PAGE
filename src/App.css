@@ -2299,19 +2299,21 @@ ul > li {
     .Footer_Bottom_Box {
         padding: 60px;
         border-top: none;
-        font-size: 16px;
+        font-size: 14px;
         color: #fff;
         font-weight: 300;
         text-align: left;
+        display: flex;
+        flex-direction: column;
     }
 
     .Footer_Contents {
-        row-gap: 15px;
-        column-gap: 0;
+        width: 100%;
     }
 
     .Footer_Contents > li {
-        flex-basis: 50%;
+        flex-basis: 100%;
+        margin: 5px 0 5px 0;
     }
 
     /* Footer_Content_end */
@@ -2328,8 +2330,13 @@ ul > li {
     }
 
     .Footer_Etc {
-        width: 90%;
+        width: 100%;
         margin-left: -8px;
+        font-size: 14px;
+    }
+
+    .Footer_Etc > li:nth-child(3) {
+        clear: both;
     }
 
     .Footer_Etc > li {
