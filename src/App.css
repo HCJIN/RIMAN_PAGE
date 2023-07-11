@@ -2338,10 +2338,11 @@ ul > li {
 
     .Footer_Etc > li > * {
         padding: 5px 8px;
-        background-color: red;
     }
     
-
+    .Footer_Copyright {
+        background-color: red;
+    }
 
     /* Footer_Bottom_Box_Bottom_end */
     
