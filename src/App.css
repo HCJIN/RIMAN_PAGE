@@ -2268,7 +2268,7 @@ ul > li {
     .Footer_Top {
         position: absolute;
         right: 30px;
-        top: 250px;
+        bottom: 0px;
         padding: 50px 22px 0;
         color: #fff;
         font-size: 15px;
@@ -2284,7 +2284,7 @@ ul > li {
     .Footer_Top:before {
         content: '↑';
         position: absolute;
-        bottom: 30px;
+        top: 60px;
         left: 50%;
         width: 16px;
         height: 32px;
@@ -2340,9 +2340,6 @@ ul > li {
         padding: 5px 8px;
     }
     
-    .Footer_Copyright {
-        background-color: red;
-    }
 
     /* Footer_Bottom_Box_Bottom_end */
     
