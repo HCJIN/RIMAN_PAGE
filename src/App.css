@@ -1998,14 +1998,14 @@ ul > li {
     .Count_Page_Sub_Title {
         position: absolute;
         right: 15px;
-        top: 100px;
+        top: 85px;
         color: #4d4e4d;
         font-size: 18px;
     }
     
     .Count_Menu {
         height: 100%;
-        margin-top: 40px;
+        margin-top: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
