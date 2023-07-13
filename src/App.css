@@ -1633,7 +1633,7 @@ ul > li {
         transition: all 0.3s ease-out 0s;
         position: absolute;
         z-index: 10;
-        top: 83%;
+        top: 85%;
         left: 10%;
         transform: translateX(-10%);
     }
@@ -2328,8 +2328,8 @@ ul > li {
     
     .Footer_Top {
         position: absolute;
-        right: 30px;
-        bottom: 0px;
+        right: 10px;
+        bottom: 10px;
         padding: 50px 22px 0;
         color: #fff;
         font-size: 15px;
@@ -2347,12 +2347,13 @@ ul > li {
         position: absolute;
         top: 60px;
         left: 50%;
+        transform: translateX(-10%);
         width: 16px;
         height: 32px;
         margin-left: -8px;
         background-repeat: no-repeat;
         background-size: 16px 32px;
-        font-size: 30px;
+        font-size: 26px;
     }
     
     /* Footer_Top_end */
