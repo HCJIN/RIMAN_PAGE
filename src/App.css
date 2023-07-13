@@ -1983,23 +1983,29 @@ ul > li {
         top: 0;
         left: 0;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 40px;
         height: auto;
         overflow-x: hidden;
         background-image: none;
         padding: 0 20px;
+        height: 100%;
     }
     
+    .Count_Page_Title {
+        font-size: 28px;
+    }
+
     .Count_Page_Sub_Title {
         position: absolute;
-        right: 0;
+        right: 15px;
         top: 100px;
         color: #4d4e4d;
         font-size: 18px;
     }
     
     .Count_Menu {
-        height: 100vh;
+        height: 100%;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2018,6 +2024,10 @@ ul > li {
         margin-bottom: 25px;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         padding: 30px 0;
+    }
+
+    .Count_Menu > .Count:last-child {
+        border-bottom: none;
     }
        
     .Count > .Sub {
