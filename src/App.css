@@ -2293,7 +2293,7 @@ ul > li {
     /* Footer_Top_Box_Right_end */
     
     .Footer_Bottom_Box {
-        padding: 60px;
+        padding: 30px;
         border-top: none;
         font-size: 16px;
         color: #fff;
@@ -2332,12 +2332,14 @@ ul > li {
         position: absolute;
         right: 10px;
         bottom: 10px;
-        padding: 50px 22px 0;
+        margin-left: 10px;
+        padding: 43px 15px 0;
         color: #fff;
         font-size: 15px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #123250;
         border: none;
         cursor: pointer;
+        border-radius: 50%;
     }
     
     .Footer_Top > a {
