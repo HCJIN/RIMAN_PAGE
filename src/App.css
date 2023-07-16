@@ -1556,7 +1556,7 @@ ul > li {
         height: 100%;
         overflow: hidden;
         background-position: 50%;
-        background-size: cover;
+        background-size: contain; /**/
     }
     
     .BG_Image > img {
