@@ -642,7 +642,7 @@ ul > li {
 
 .Count_Page_Sub_Title {
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 100px;
     color: #4d4e4d;
     font-size: 18px;
