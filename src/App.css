@@ -1095,6 +1095,10 @@ ul > li {
 
     /* News_Page_Title_end */
 
+    .Count_List {
+        font-size: 80px;
+    }
+
     .Footer_Bottom_Box {
         padding: 60px;
         border-top: 1px solid hsla(0, 0%, 100%, 0.1);
