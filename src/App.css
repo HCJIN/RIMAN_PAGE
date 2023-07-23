@@ -1096,7 +1096,7 @@ ul > li {
     /* News_Page_Title_end */
 
     .Count_List {
-        font-size: 100px;
+        font-size: 80px; /* 80px*/
     }
 
     .Footer_Bottom_Box {
