@@ -1158,7 +1158,7 @@ ul > li {
         top: 0;
         left: 0;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 70px;
         height: auto;
         overflow-x: hidden;
         background-image: none;
@@ -1183,7 +1183,7 @@ ul > li {
     
     .Count {
         width: 100%;
-        margin: 0 auto;
+        margin: 15px auto;
         font-size: 60px;
         font-weight: 300;
         display: flex;
