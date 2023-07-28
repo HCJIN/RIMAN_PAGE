@@ -1454,7 +1454,7 @@ ul > li {
     }
 
     .Footer_Contents > li {
-        flex-basis: 40%;
+        flex-basis: 40%; /**/
     }
 
     /* Footer_Content_end */
