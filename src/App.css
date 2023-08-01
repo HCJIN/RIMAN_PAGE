@@ -1082,6 +1082,16 @@ ul > li {
 
     /* Menu_list_end */
 
+    .Show_Menu_List_item > li {
+        font-size: 80px;
+    }
+
+    .Show_Menu_List_Sub_Menu > li {
+        font-size: 15px;
+    }
+
+    /* Show_Menu_List_end */
+
     .News_Title {
         display: flex;
         justify-content: space-between;
@@ -1153,6 +1163,17 @@ ul > li {
     
     /* Menu_List_end */
  
+
+    .Show_Menu_List_item > li {
+        font-size: 80px;
+    }
+
+    .Show_Menu_List_Sub_Menu > li {
+        font-size: 18px;
+    }
+
+    /* Show_Menu_List_end */
+
     .Count_Page {
         position: relative;
         top: 0;
