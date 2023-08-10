@@ -196,13 +196,14 @@ ul > li {
 .logo {
     display: flex;
     justify-content: flex-start;
+    margin-left: 110px;
 }
 
 .Login {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 130px;
 }
 
 .My_page_Icon {

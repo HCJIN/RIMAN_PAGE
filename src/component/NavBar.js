@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     <div className={`main ${scrollPosition > 400 ? 'white-background' : ''}`}>
       <div className='header'>
-        <a>
+        <a className='logo'>
           <img src='https://www.rimankorea.com/logo_rimankorea.svg?30b253deffbf5c06549e270cc61b2f69' alt='로고'/>
         </a>
         <ul className='menu_list'>
