@@ -212,8 +212,12 @@ ul > li {
 
 .Menu_Bar {
     margin-left: 20px;
+    margin-bottom: 2.5px;
     font-size: 20px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Main_BG {
