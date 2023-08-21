@@ -203,7 +203,7 @@ ul > li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 120px;
+    margin-right: 130px;
 }
 
 .My_page_Icon {
@@ -275,7 +275,7 @@ ul > li {
 .BG_Text {
     position: absolute;
     z-index: 1;
-    top: 20%;
+    top: 25%;
     left: 10%;
     transform: translateX(-10%);
 }
@@ -308,7 +308,7 @@ ul > li {
     transition: all 0.3s ease-out 0s;
     position: absolute;
     z-index: 10;
-    top: 52%;
+    top: 57%;
     left: 10%;
     transform: translateX(-10%);
 }
@@ -379,10 +379,10 @@ ul > li {
 
 .Top_Left_Box_Btn {
     display: inline-block;
-    min-width: 220px;
+    min-width: 200px;
     font-size: 18px;
     text-align: center;
-    line-height: 58px;
+    line-height: 55px;
     font-weight: bold;
     margin: 40px 0 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -447,10 +447,10 @@ ul > li {
 
 .Mid_Right_Box_Btn {
     display: inline-block;
-    min-width: 220px;
+    min-width: 200px; /*220*/
     font-size: 18px;
     text-align: center;
-    line-height: 58px;
+    line-height: 55px; /*55*/
     font-weight: bold;
     margin: 40px 0 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -492,10 +492,10 @@ ul > li {
 
 .Bottom_Left_Box_Btn {
     display: inline-block;
-    min-width: 220px;
+    min-width: 200px;
     font-size: 18px;
     text-align: center;
-    line-height: 58px;
+    line-height: 55px;
     font-weight: bold;
     margin: 40px 0 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -557,10 +557,10 @@ ul > li {
 
 .Top_Banner_Box_Btn {
     display: inline-block;
-    min-width: 220px;
+    min-width: 200px;
     font-size: 18px;
     text-align: center;
-    line-height: 58px;
+    line-height: 55px;
     font-weight: bold;
     margin: 40px 0 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -612,10 +612,10 @@ ul > li {
 
 .Bottom_Banner_Box_Btn {
     display: inline-block;
-    min-width: 220px;
+    min-width: 200px;
     font-size: 18px;
     text-align: center;
-    line-height: 58px;
+    line-height: 55px;
     font-weight: bold;
     margin: 40px 0 20px;
     background-color: rgba(0, 0, 0, 0);
@@ -724,6 +724,7 @@ ul > li {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    font-size: 24px;
     top: 10%;
     transform: translateY(-10%);
     width: 100%;
@@ -765,7 +766,7 @@ ul > li {
 }
 
 .Main_News_Content > .Content:nth-child(2) {
-    margin: 0 100px;
+    margin: 0 80px;
 }
 
 .Main_News_Content > img {
@@ -930,6 +931,7 @@ ul > li {
 
 .Footer_Top_Box_Right {
     width: 50%;
+    padding-right: 40px;
     display: flex;
     justify-content: flex-end;
 }
@@ -1087,6 +1089,21 @@ ul > li {
 
     /* Menu_list_end */
 
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+    
+    .Login {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    /* Logo_Login_end */
+
     .Show_Menu_List_item > li {
         font-size: 80px;
     }
@@ -1168,6 +1185,20 @@ ul > li {
     
     /* Menu_List_end */
  
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+    
+    .Login {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    /* Logo_Login_end */
 
     .Show_Menu_List_item > li {
         font-size: 80px;
