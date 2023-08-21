@@ -80,7 +80,7 @@ ul > li {
 
 .main_menu {
     position: relative;
-    margin: 0 45px;
+    margin: 0 40px;
 }
 
 .main_menu:hover .sub_menu {
@@ -90,7 +90,7 @@ ul > li {
 /* Menu_list_end */
 
 .sub_menu {
-    width: 135px;
+    width: 140px;
     padding: 10px;
     font-size: 15px;
     display: none;
@@ -130,7 +130,7 @@ ul > li {
 }
 
 .sub_menu > li:hover > a {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, .9);
     font-weight: bold;
 }
 
@@ -1572,14 +1572,14 @@ ul > li {
     .logo {
         display: flex;
         justify-content: flex-start;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     
     .Login {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 60px;
+        margin-right: 40px;
     }
 
     /* Logo_Login_end */
