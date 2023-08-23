@@ -49,7 +49,7 @@ const Main_Product_Box = () => {
                 현재를 가꾸는 당신에게 <br/> Lifening, to tou
               </h1>
               <div className='Bottom_Left_Box_Mid_Txt'>
-                매일 챙기는 당신의 하루
+                매일 챙기는 <br/> 당신의 하루
               </div>
               <button className="Bottom_Left_Box_Btn">자세히 보기</button>      
           </div>    

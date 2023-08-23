@@ -35,7 +35,7 @@ ul > li {
 }
 
 .white-background .header {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .white-background .menu_list {
@@ -134,10 +134,6 @@ ul > li {
     font-weight: bold;
 }
 
-/* .sub_menu > li:hover {
-    background-color: rgba(255, 255, 255, .9);
-} */
-
 /* Sub_Menu_end */
 
 .Show_menu {
@@ -168,13 +164,13 @@ ul > li {
 /* Show_Menu_Close_Button_end */
 
 .Show_Menu_List_item {
-    font-size: 10vh;
+    font-size: 9.2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 40px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
 }
 
 .Show_Menu_List > .Show_Menu_List_item:last-child {
@@ -192,7 +188,7 @@ ul > li {
 }
 
 .Show_Menu_List_Sub_Menu > li {
-    font-size: 16px;
+    display: none;
 }
 
 /* Show_Menu_List_end */
@@ -278,7 +274,7 @@ ul > li {
 .BG_Text {
     position: absolute;
     z-index: 1;
-    top: 25%;
+    top: 30%;
     left: 10%;
     transform: translateX(-10%);
 }
@@ -311,7 +307,7 @@ ul > li {
     transition: all 0.3s ease-out 0s;
     position: absolute;
     z-index: 10;
-    top: 57%;
+    top: 62%;
     left: 10%;
     transform: translateX(-10%);
 }
