@@ -275,7 +275,7 @@ ul > li {
 .BG_Text {
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 25%;/*30*/
     left: 10%;
     transform: translateX(-10%);
 }
