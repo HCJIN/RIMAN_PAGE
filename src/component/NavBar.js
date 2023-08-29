@@ -129,7 +129,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <a href='#'>
-                    VISIT OUR BRANCH  
+                    BRANCH  
                   </a>
                 </li>
                 <li>

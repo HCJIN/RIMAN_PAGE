@@ -96,7 +96,7 @@ ul > li {
     font-size: 15px;
     display: none;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     animation-name: slide_up;
     animation-duration: 0.6s;
@@ -131,12 +131,12 @@ ul > li {
 }
 
 .sub_menu > li > a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
 }
 
 .sub_menu > li:hover > a {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(0, 0, 0, .9);
     font-weight: bold;
 }
 
@@ -915,6 +915,7 @@ ul > li {
 
 .Footer_Top_Box_Left > ul {
     margin-right: 15px;
+    opacity: .9;
 }
 
 /* Footer_Top_Box_Left_end */
@@ -946,6 +947,7 @@ ul > li {
     padding-right: 40px;
     display: flex;
     justify-content: flex-end;
+    opacity: .9;
 }
 
 .Select {
@@ -1010,6 +1012,7 @@ ul > li {
     font-size: 16px;
     color: #fff;
     font-weight: 300;
+    opacity: .8;
     text-align: left;
 }
 
@@ -1048,6 +1051,7 @@ ul > li {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #123250;
     border: none;
     cursor: pointer;
+    opacity: .8;
 }
 
 .Footer_Top > a {
@@ -2098,7 +2102,7 @@ ul > li {
         top: 0;
         left: 0;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 80px;
         height: auto;
         overflow-x: hidden;
         background-image: none;
