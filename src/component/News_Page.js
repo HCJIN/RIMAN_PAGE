@@ -26,9 +26,9 @@ const News_Page = () => {
           <div className="Content">
             <img src={News_Img_2}/>
             <div className='Main_News_Title'>
-              {`제주산 최고 품질 원료 고집하는 <리만코리아> `}
+              제주산 최고 품질 원료 고집하는
               <br/>
-              <br/>
+              {`<리만코리아>`}
             </div>
             <div className='Main_News_Date'>
               2023.05.17
