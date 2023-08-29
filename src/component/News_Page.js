@@ -37,7 +37,7 @@ const News_Page = () => {
           <div className="Content">
             <img src={News_Img_3}/>
             <div className='Main_News_Title'>
-              오늘과 내일의 건강한 활력을 책임지는 건강기능식품 제안 라이프닝 액티브 에너지 샷 & 라이프닝 리셋...
+              오늘과 내일의 건강한 활력을 책임지는 건강기능식품 제안 라이프닝 액티브 에너지 샷
             </div>
             <div className='Main_News_Date'>
               2023.05.24
