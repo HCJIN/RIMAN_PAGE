@@ -650,6 +650,11 @@ ul > li {
     background-position: center;
 }
 
+.Count_Page_Title {
+    position: relative;
+    top: 50px;
+}
+
 .Count_Page_Sub_Title {
     position: absolute;
     right: 150px;
