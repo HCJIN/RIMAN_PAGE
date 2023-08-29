@@ -91,7 +91,7 @@ ul > li {
 /* Menu_list_end */
 
 .sub_menu {
-    width: 140px;
+    width: 138px;
     padding: 10px;
     font-size: 15px;
     display: none;
@@ -102,32 +102,37 @@ ul > li {
     animation-duration: 0.6s;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @keyframes slide_up {
     0% {
         opacity: 0;
         transform: translate3d(0, 30%, 0);
+        transform: translateX(-50%);
     }
     50% {
         opacity: 1;
         transform: translate3d(1, 15%, 0);
+        transform: translateX(-50%);
     }
     100% {
         opacity: 1;
         transform: translate3d(0, 0, 0);
+        transform: translateX(-50%);
     }
 }
 
 .sub_menu > li {
-    text-align: left;
-    margin: 5px 0;
+    text-align: center;
+    margin: 6px auto;
     transition: all 0.3s;
 }
 
 .sub_menu > li > a {
     color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
 }
 
 .sub_menu > li:hover > a {
@@ -648,7 +653,7 @@ ul > li {
 .Count_Page_Sub_Title {
     position: absolute;
     right: 150px;
-    top: 100px;
+    top: 200px;
     color: #4d4e4d;
     font-size: 18px;
 }
@@ -1646,7 +1651,7 @@ ul > li {
         width: 100%;
         position: relative;
         padding-top: 50vh;
-        height: 300px;
+        height: 100px;
     }
     
     .bg-image {
@@ -1700,7 +1705,7 @@ ul > li {
     .BG_Text {
         position: absolute;
         z-index: 1;
-        top: 65%;
+        top: 50%;
         left: 15%;
         transform: translateX(-15%);
     }
@@ -1711,7 +1716,7 @@ ul > li {
     }
     
     .BG_Text h3 {
-        margin: 20px 0;
+        margin: 10px 0;
         font-size: 20px;
     }
     
@@ -1734,7 +1739,7 @@ ul > li {
         transition: all 0.3s ease-out 0s;
         position: absolute;
         z-index: 10;
-        top: 85%;
+        top: 77%;
         left: 10%;
         transform: translateX(-10%);
     }
@@ -1793,9 +1798,12 @@ ul > li {
         width: 100%;
     }
     
+    .Main_Product_Top_Box_Left_Txt {
+        margin: 20px 0;
+    }
+
     .Top_Left_Box_Top_Txt {
         font-size: 24px;
-        margin-top: 15px;
         line-height: 34px;
     }
     
@@ -1863,10 +1871,13 @@ ul > li {
         width: 100%;
         text-align: center;
     }
+
+    .Main_Product_Mid_Box_Right_Txt {
+        margin: 20px 0;
+    }
     
     .Mid_Right_Box_Top_Txt {
         font-size: 24px;
-        margin-top: 15px;
         line-height: 34px;
     }
     
@@ -1911,10 +1922,13 @@ ul > li {
     .Main_Product_Bottom_Box_Left {
         width: 100%;
     }
+
+    .Main_Product_Bottom_Box_Left_Txt {
+        margin: 20px 0;
+    }
     
     .Bottom_Left_Box_Top_Txt {
         font-size: 24px;
-        margin-top: 15px;
         line-height: 34px;
     }
     
@@ -2430,7 +2444,7 @@ ul > li {
 
     .Footer_Top {
         position: absolute;
-        right: 10px;
+        right: 15px;
         bottom: 10px;
         margin-left: 10px;
         padding: 43px 1px 0;
