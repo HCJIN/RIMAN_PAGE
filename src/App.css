@@ -164,13 +164,13 @@ ul > li {
 
 .Show_Menu_Close_Button_Link {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Show_Menu_Close_Button_end */
 
 .Show_Menu_List_item {
-    font-size: 9.2vh;
+    font-size: 8.8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -849,6 +849,14 @@ ul > li {
     font-size: 50px;
     margin-left: 30px;
     font-weight: 500;
+}
+
+.Back {
+    height: 30px;
+}
+
+.Next {
+    height: 30px;
 }
 
 .Main_Bottom_Txt {

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Main_Bottom_Img1 from '../image/main_banner_swiper01.jpg';
 import Main_Bottom_Img2 from '../image/main_banner_swiper02.jpg';
+import Back from '../image/back.png';
+import Next from '../image/next.png'
 
 const Main_Bottom = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -34,7 +36,7 @@ const Main_Bottom = () => {
         <img src={images[currentImage]} alt={`Image ${currentImage}`}/> 
         <div className="Main_Bottom">
           <div className="Left_Arrow" onClick={prevImage}>
-            {`<`}
+            <img src={Back} alt='back' className='Back'/>
           </div>
           <div className="Main_Bottom_Txt">
             <div>{currentText.title}</div>
@@ -42,7 +44,7 @@ const Main_Bottom = () => {
             <div className="Main_Bottom_Txt_Btn">{currentText.btnText}</div>
           </div>
           <div className="Right_Arrow" onClick={nextImage}>
-            {`>`}
+           <img src={Next} alt='next' className='Next'/>
           </div>
         </div>
       </div>
