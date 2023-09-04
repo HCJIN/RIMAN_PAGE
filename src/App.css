@@ -960,7 +960,6 @@ ul > li {
     padding-right: 40px;
     display: flex;
     justify-content: flex-end;
-    opacity: .9;
 }
 
 .Select {
@@ -1433,7 +1432,7 @@ ul > li {
         font-weight: 300;
         border: transparent;
         background-color: #102d48;
-        padding: 10px 24px;
+        padding: 15px 20px;
     }
     
     .Select_Button:after {
@@ -2377,13 +2376,13 @@ ul > li {
     }
     
     .Footer_Family .Select_Button {
-        width: 370px;
+        width: 380px;
         color: #fff;
         font-size: 16px;
         font-weight: 300;
         border: transparent;
         background-color: #102d48;
-        padding: 10px 24px;
+        padding: 20px 24px;
     }
     
     .Select_Button:after {
@@ -2402,14 +2401,15 @@ ul > li {
     }
     
     .Select_List {
-        width: 370px;
+        width: 380px;
         display: none;
         position: absolute;
-        top: 40px;
+        top: 60px;
         left: 0;
         right: 0;
         padding: 0;
         border: 1px solid #e0e0e0;
+        box-sizing: border-box;
         background: #fff;
         z-index: 10;
     }
