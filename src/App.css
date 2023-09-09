@@ -2118,7 +2118,7 @@ ul > li {
         top: 0;
         left: 0;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 45px;
         height: auto;
         overflow-x: hidden;
         background-image: none;
@@ -2129,20 +2129,19 @@ ul > li {
     .Count_Page_Title {
         font-size: 30px;
         width: 100%;
-        
     }
 
     .Count_Page_Sub_Title {
         position: absolute;
         right: 15px;
-        top: 85px;
+        top: 130px;
         color: #4d4e4d;
         font-size: 18px;
     }
     
     .Count_Menu {
         height: 100%;
-        margin-top: 80px;
+        margin-top: 150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
