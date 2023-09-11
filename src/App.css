@@ -1331,6 +1331,7 @@ ul > li {
         text-align: left;
         line-height: 40px;
         position: absolute;
+        left: 15px;
 
     }
     
@@ -1338,7 +1339,7 @@ ul > li {
         position: absolute;
         width: 54px;
         height: 54px;
-        right: 5px;
+        right: 15px;
         font-size: 30px;
         border: 1px solid #000;
         display: flex;
