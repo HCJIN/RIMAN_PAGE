@@ -25,7 +25,7 @@ const Banner = () => {
           정화 능력이 응집된 식물
         </h1>
         <div className='Bottom_Banner_Box_Mid_Txt'>
-          병풀은 호랑이가 상처를 입었을 때 병풀밭에서 구르면서 치료하는 모습을 보고 호랑이풀이라 불렀고
+          병풀은 호랑이가 상처를 입었을 때 치료하는 모습을 보고 호랑이풀이라 불렀고
           <br/> 코끼리가 병풀을 먹는 것을 보고 장수식품으로 여겼다고 합니다.
         </div>
         <button className="Bottom_Banner_Box_Btn">자세히 보기</button>     

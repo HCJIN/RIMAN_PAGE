@@ -5,7 +5,7 @@ const Count_Page = () => {
     <div className='Count_Page_Main'>
         <div className='Count_Page'>
             <h1 className='Count_Page_Title'>
-                숫자로 알아보는 RIMAN KOREA
+                RIMAN KOREA
             </h1>
             <h3 className='Count_Page_Sub_Title'>
                 ※2022년 기준
