@@ -749,7 +749,7 @@ ul > li {
     position: absolute;
     width: 44px;
     padding: 5px;
-    right: 152px;
+    right: 170px;
     font-size: 24px;
     border: 1px solid #000;
     box-sizing: border-box;
@@ -1247,6 +1247,7 @@ ul > li {
     /* Logo_Login_end */
 
     .Show_Menu_List_item > li {
+        width: 100%;
         font-size: 80px;
     }
 
@@ -1522,13 +1523,14 @@ ul > li {
     .Footer_Top {
         position: absolute;
         right: 30px;
-        top: 250px;
+        top: 200px;
         padding: 50px 22px 0;
         color: #fff;
         font-size: 15px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #123250;
         border: none;
         cursor: pointer;
+        z-index: 9999;
     }
     
     .Footer_Top > a {
@@ -2472,7 +2474,7 @@ ul > li {
     .Footer_Top {
         position: absolute;
         right: 15px;
-        bottom: 10px;
+        bottom: 30px;
         margin-left: 10px;
         padding: 43px 1px 0;
         color: #fff;
@@ -2481,6 +2483,7 @@ ul > li {
         border: none;
         cursor: pointer;
         border-radius: 50%;
+        z-index: 9999;
     }
     
     .Footer_Top > a {
@@ -2490,7 +2493,7 @@ ul > li {
     .Footer_Top:before {
         content: '↑';
         position: absolute;
-        top: 50px;
+        top: 45px;
         left: 50%;
         transform: translateX(-10%);
         width: 16px;
