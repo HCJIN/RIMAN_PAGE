@@ -9,7 +9,7 @@ const Banner = () => {
       <img src={Top_Banner_Img}/>
       <div className='Top_Banner_Txt'>
         <h1 className='Top_Banner_Box_Top_Txt'>
-          청정 제주 화산 암반층이 40만년 품어온 미네랄
+          청정 제주 화산 암반층이 품어온 미네랄
         </h1>
         <div className='Top_Banner_Box_Mid_Txt'>
           용암해수는 제주바다가 만들어 낸 맑고 깨끗한 물입니다.

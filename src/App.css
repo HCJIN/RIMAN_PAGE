@@ -994,6 +994,7 @@ ul > li {
     transition: transform 0.3s ease-out 0s;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .Select_List {
@@ -1095,7 +1096,7 @@ ul > li {
 }
 
 .Footer_Etc {
-    width: 40%;
+    width: 30%; /*40*/
     display: flex;
     justify-content: space-between;
 }
@@ -1141,7 +1142,9 @@ ul > li {
     /* Logo_Login_end */
 
     .Show_Menu_List_item > li {
-        font-size: 80px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-size: 70px;
     }
 
     .Show_Menu_List_Sub_Menu > li {
@@ -1248,7 +1251,8 @@ ul > li {
 
     .Show_Menu_List_item > li {
         width: 100%;
-        font-size: 80px;
+        font-size: 70px;
+        margin-bottom: 5px;
     }
 
     .Show_Menu_List_Sub_Menu > li {
