@@ -1096,7 +1096,7 @@ ul > li {
 }
 
 .Footer_Etc {
-    width: 30%; /*40*/
+    width: 40%; 
     display: flex;
     justify-content: space-between;
 }
