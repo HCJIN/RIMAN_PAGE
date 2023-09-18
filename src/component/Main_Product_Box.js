@@ -46,7 +46,7 @@ const Main_Product_Box = () => {
         <div className='Main_Product_Bottom_Box_Left'>
           <div className='Main_Product_Bottom_Box_Left_Txt'>
               <h1 className='Bottom_Left_Box_Top_Txt'>
-                현재를 가꾸는 당신에게 <br/> Lifening, to tou
+                현재를 가꾸는 당신에게 <br/> Lifening, to you
               </h1>
               <div className='Bottom_Left_Box_Mid_Txt'>
                 매일 챙기는 건강 Lifening<br/>건강한 당신의 하루

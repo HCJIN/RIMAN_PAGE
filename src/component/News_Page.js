@@ -37,7 +37,7 @@ const News_Page = () => {
           <div className="Content">
             <img src={News_Img_3}/>
             <div className='Main_News_Title'>
-              건강기능식품 제안 라이프닝 액티브 에너지 샷
+              건강기능식품 제안 라이프닝 액티브 에너지 샷 Lifening, to you
             </div>
             <div className='Main_News_Date'>
               2023.05.24
